@@ -6,10 +6,30 @@ body {
 header {
 	display: flex;
 	justify-content: space-between;
-	background-color: #FFE3B5;
-	border: 1px solid black;
+	align-items: center;
+	background-color: #ffe8d6;
+	border-bottom: 1px solid black;
 	padding-left: 1%;
-	height: 50px;
+	padding-right: 30px;
+	height: 8vh;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.grey {
+	color: gray;
+}
+
+.minpadding {
+	padding-left: 70px;
+	padding-right: 30px;
 }
 
 .logoipsum {
@@ -27,6 +47,10 @@ header {
 	margin-left: 30px;
 }
 
+.margintop {
+	margin-top: 30px;
+}
+
 .user {
 	margin: 10px;
 	height: 35px;
@@ -38,7 +62,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	background-color: #F0EDED;
-	height: 91vh;
+	height: 92vh;
 
 }
 
@@ -54,16 +78,40 @@ header {
 	font-size: 70px;
 }
 
-.botoinici {
+.botomes {
 	height: 40px;
 	width: 130px;
 	color: #CB997E;
 	border: 3px solid #CB997E;
 	border-radius: 30px;
-	margin-top: 30px;
+}
+
+.botoblanc {
+	background-color: white;
 }
 
 .imatgeinici {
 	height: 300px;
 	width: 500px;
+}
+
+.categories {
+	display: flex;
+	height: 60px;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 40%;
+	border-bottom: 2px solid black;
+}
+
+.lastestrecipes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imatgerecipe {
+	height: 354px;
+	width: 590px;
+	background-color: #f4eae5;
 }
