@@ -1,1 +1,69 @@
-asdasd
+body {
+	margin: 0;
+	font-family: Arial;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #FFE3B5;
+	border: 1px solid black;
+	padding-left: 1%;
+	height: 50px;
+}
+
+.logoipsum {
+	height: 43px;
+	widht: 200px;
+}
+
+.pagines {
+	display: flex;
+	margin-right: 50px;
+	padding-right: 500px;
+}
+
+.pagina {
+	margin-left: 30px;
+}
+
+.user {
+	margin: 10px;
+	height: 35px;
+	width: 35px;
+}
+
+.inicicentral {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F0EDED;
+	height: 91vh;
+
+}
+
+.minmagic {
+	flex-direction: column;
+}
+
+.womargin {
+	margin: 0;
+}
+
+.titleinici {
+	font-size: 70px;
+}
+
+.botoinici {
+	height: 40px;
+	width: 130px;
+	color: #CB997E;
+	border: 3px solid #CB997E;
+	border-radius: 30px;
+	margin-top: 30px;
+}
+
+.imatgeinici {
+	height: 300px;
+	width: 500px;
+}
