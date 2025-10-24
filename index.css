@@ -21,6 +21,8 @@ h2 {
 h3 {
 	font-size: 30px;
 	font-weight: normal;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .grey {
@@ -29,7 +31,7 @@ h3 {
 
 .minpadding {
 	padding-left: 70px;
-	padding-right: 30px;
+	padding-right: 70px;
 }
 
 .logoipsum {
@@ -114,4 +116,39 @@ h3 {
 	height: 354px;
 	width: 590px;
 	background-color: #f4eae5;
+}
+
+.suscribe {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #cb997e;
+	height: 200px;
+	border-radius: 30px;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 50px;
+}
+
+.inputemail {
+	border: 1px solid #ffe8d6;
+	border-radius: 30px;
+	background-color: #cb997e;
+	height: 35px;
+	width: 300px;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-top: 0;
+	color: black;
+}
+
+.botoemail {
+	background-color: #ffe8d6;
+	height: 38px;
+	width: 150px;
+	border-radius: 30px;
+	border: 1px solid #ffe8d6;
+	position: relative;
+	bottom: 1px;
+	right: 40px;
 }
