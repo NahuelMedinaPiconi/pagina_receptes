@@ -10,18 +10,18 @@
 		<title>Home</title>
 	</head>
 <body>
-	<header>
+	<header class="centrar display">
 		<img class="logoipsum" src="storage/logoipsum.png" alt="logoipsum">
-		<section class="pagines">
-				<p class="pagina grey">Lastest recipes</p>
-				<p class="pagina">Most popular recipes</p>
-				<p class="pagina">Categories</p>
+		<section class="pagines display">
+				<a href="#categ"><p class="pagina">Categories</p></a>
+				<a href="#lastrec"><p class="pagina">Lastest recipes</p></a>
+				<a href="#mstpopular"><p class="pagina">Most popular recipes</p></a>
 		</section>
 		<section>
-			<img class="user" src="storage/user.png" alt="user">
+			<img class="user" src="storage/usuari.png" alt="user">
 		</section>
 	</header>
-	<section class="inicicentral">
+	<section class="inicicentral display centretotal">
 		<article class="minmagic">
 			<p class="womargin"><strong>Healthy</strong></p>
 			<h1 class="womargin titleinici">10 Minute Magic</h1>
@@ -30,16 +30,16 @@
 		</article>
 		<img class="imatgeinici" src="storage/imatgeinici.png" alt="image nos found">
 	</section>
-	<section class="categories minpadding">
-		<p class="grey">View by category:</p>
+	<section class="categories minpadding display centrar">
+		<p id="categ" class="grey">View by category:</p>
 		<p><strong>Appetizers</strong></p>
 		<p><strong>Beverages</strong></p>
 		<p><strong>Desserts</strong></p>
 		<p><strong>Healthy</strong></p>
 	</section>
-	<h2 class="minpadding">Lastest recipes</h2>
-	<section class="lastestrecipes minpadding">
-		<article>
+	<h2 id="lastrec" class="minpadding">Lastest recipes</h2>
+	<section class="centretotal minpadding display">
+		<article class="lastrecipe">
 			<img class="imatgerecipe" src="storage/imatgeinici.png" alt="imatge not found">
 			<h3>Grantma's Buttcherscotch PIE</h3>
 			<p><strong>Healthy</strong></p>
@@ -50,7 +50,7 @@
 			</p>
 			<button class="botomes botoblanc">see recipe</button>
 		</article>
-		<article>
+		<article class="lastrecipe">
 			<img class="imatgerecipe" src="storage/imatgeinici.png" alt="imatge not found">
 			<h3>10 Minute Magic Orange Juice</h3>
 			<p><strong>Healthy</strong></p>
@@ -62,7 +62,7 @@
 			<button class="botomes botoblanc">see recipe</button>
 		</article>
 	</section>
-	<section class="suscribe minpadding">
+	<section class="suscribe minpadding display centrar">
 		<article>
 			<h3>Never miss a recipe</h3>
 			<p>Join thousands of Company subscribers and get our <br>best recipes delivered each week!</p>
@@ -72,51 +72,58 @@
 			<button class="botoemail">Botón</button>
 		</article>
 	</section>
-	<h2>Most popular recipes</h2>
-	<section class="popular">
-		<article class="recipe">
-			<img>
-			<p><strong>Healthy</strong></p>
-			<h3>Grantma's Buttcherscotch PIE</h3>
-		</article>
-		<article class="recipe">
-			<img>
-			<p><strong>Healthy</strong></p>
-			<h3>10 Minute Magic Orange Juice</h3>
-		</article>
-		<article class="recipe">
-			<img>
-			<p><strong>Bread / Sweet</strong></p>
-			<h3>Perfect Avocado Toast For Breakfast</h3>
-		</article>
-		<article class="recipe">
-			<img>
-			<p><strong>Healthy</strong></p>
-			<h3>Summer Berry Parfaid</h3>
-		</article>
-	</section>
-	<section class="autor">
-		<img>
+	<h2 id="mstpopular" class="minpadding">Most popular recipes</h2>
+	<table class="minpadding" cellpadding="20" cellspacing="30px">
+		<tr>
+			<td class="recipe display">
+				<article>
+					<p><strong>Healthy</strong></p>
+					<h3>Grantma's Buttcherscotch PIE</h3>
+				</article>
+			</td>
+			<td class="recipe">
+				<img class="imatgeinici" src="storage/imatgeinici.png" alt="image not found">
+				<p><strong>Healthy</strong></p>
+				<h3>10 Minute Magic Orange Juice</h3>
+			</td>
+		</tr>
+		<tr>
+			<td class="recipe">
+				<img class="imatgeinici" src="storage/imatgeinici.png" alt="image not found">
+				<p><strong>Bread / Sweet</strong></p>
+				<h3>Perfect Avocado Toast For Breakfast</h3>
+			</td>
+			<td class="recipe">
+				<img class="imatgeinici" src="storage/imatgeinici.png" alt="image not found">
+				<p><strong>Healthy</strong></p>
+				<h3>Summer Berry Parfaid</h3>
+			</td>
+		</tr>
+	</table>
+	<section class="autor minpadding display centrar">
+		<img class="perfilautor" src="storage/usuari.png">
 		<article>
 			<p><strong>About the Author</strong></p>
-			<h2>Nahuel Medina Piconi</h2>
+			<p id="nomautor" class="womargin">Nahuel Medina Piconi</p>
 			<p>
 				Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate. Phasellus iaculis tellus augue, at ultrices lacus efficitur a. Mauris a nibh erat. In sed massa sed erat consectetur convallis vel vitae felis. Vivamus in tempus erat. Cras porta nisi sit amet leo dictum, non suscipit neque tincidunt. Ut et enim ligula.
 			</p>
 		</article>
 	</section>
-	<footer>
-		<img src="storage/logoipsum.png">
+	<footer class="minpadding display centrar">
+		<section>
+			<img src="storage/logoipsum.png">
+			<article class="display">
+				<a href="#categ"><p class="pagina">Categories</p></a>
+				<a href="#lastrec"><p class="pagina">Lastest recipes</p></a>
+				<a href="#mstpopular"><p class="pagina">Most popular recipes</p></a>
+			</article>
+		</section>
 		<article>
-			<p class="pagina">Lastest recipes</p>
-			<p class="pagina">Most popular recipes</p>
-			<p class="pagina">Categories</p>
-		</article>
-		<article>
-			<img>
-			<img>
-			<img>
-			<img>
+			<a href="https://www.facebook.com" target="_blank"><img class="user" src="storage/facebook.png" alt="facebook"></a>
+			<a href="https://www.instagram.com" target="_blank"><img class="user" src="storage/instagram.png" alt="instagram"></a>
+			<a href="https://www.x.com" target="_blank"><img class="user" src="storage/twitter.png" alt="twitter"></a>
+			<a href="https://www.tiktok.com" target="_blank"><img class="user" src="storage/tiktok.png" alt="tik tok"></a>
 		</article>
 	</footer>
 </body>
