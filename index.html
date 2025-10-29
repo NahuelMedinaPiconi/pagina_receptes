@@ -13,22 +13,21 @@
 	<header class="centrar display">
 		<img class="logoipsum" src="storage/logoipsum.png" alt="logoipsum">
 		<section class="pagines display">
-				<a href="#categ"><p class="pagina">Categories</p></a>
-				<a href="#lastrec"><p class="pagina">Lastest recipes</p></a>
-				<a href="#mstpopular"><p class="pagina">Most popular recipes</p></a>
+				<a class="pagina display" href="#categ">Categories</a>
+				<a class="pagina display" href="#lastrec">Lastest recipes</a>
+				<a class="pagina display" href="#mstpopular">Most popular recipes</a>
 		</section>
 		<section>
 			<img class="user" src="storage/usuari.png" alt="user">
 		</section>
 	</header>
-	<section class="inicicentral display centretotal">
+	<section class="inicicentral display">
 		<article class="minmagic">
 			<p class="womargin"><strong>Healthy</strong></p>
 			<h1 class="womargin titleinici">10 Minute Magic</h1>
 			<p class="womargin titleinici">Orange Sauce</p>
 			<button class="botomes margintop">see recipe</button>
 		</article>
-		<img class="imatgeinici" src="storage/imatgeinici.png" alt="image nos found">
 	</section>
 	<section class="categories minpadding display centrar">
 		<p id="categ" class="grey">View by category:</p>
@@ -40,7 +39,7 @@
 	<h2 id="lastrec" class="minpadding">Lastest recipes</h2>
 	<section class="centretotal minpadding display">
 		<article class="lastrecipe">
-			<img class="imatgerecipe" src="storage/imatgeinici.png" alt="imatge not found">
+			<img class="imatgerecipe" src="https://lipsum.app/590x354/f4eae5/cb997e" alt="imatge not found">
 			<h3>Grantma's Buttcherscotch PIE</h3>
 			<p><strong>Healthy</strong></p>
 			<p>
@@ -51,7 +50,7 @@
 			<button class="botomes botoblanc">see recipe</button>
 		</article>
 		<article class="lastrecipe">
-			<img class="imatgerecipe" src="storage/imatgeinici.png" alt="imatge not found">
+			<img class="imatgerecipe" src="https://lipsum.app/590x354/f4eae5/cb997e" alt="imatge not found">
 			<h3>10 Minute Magic Orange Juice</h3>
 			<p><strong>Healthy</strong></p>
 			<p>
@@ -73,33 +72,28 @@
 		</article>
 	</section>
 	<h2 id="mstpopular" class="minpadding">Most popular recipes</h2>
-	<table class="minpadding" cellpadding="20" cellspacing="30px">
-		<tr>
-			<td class="recipe display">
-				<article>
-					<p><strong>Healthy</strong></p>
-					<h3>Grantma's Buttcherscotch PIE</h3>
-				</article>
-			</td>
-			<td class="recipe">
-				<img class="imatgeinici" src="storage/imatgeinici.png" alt="image not found">
-				<p><strong>Healthy</strong></p>
+	<section class="minpadding">
+		<div class="display">
+			<article class="recipe display">
+				<span><strong>Healthy</strong></span>
+				<h3>Grantma's Buttcherscotch PIE</h3>
+			</article>
+			<article class="recipe display">
+				<span><strong>Healthy</strong></span>
 				<h3>10 Minute Magic Orange Juice</h3>
-			</td>
-		</tr>
-		<tr>
-			<td class="recipe">
-				<img class="imatgeinici" src="storage/imatgeinici.png" alt="image not found">
-				<p><strong>Bread / Sweet</strong></p>
+			</article>
+		</div>
+		<div class="display">
+			<article class="recipe display">
+				<span><strong>Bread / Sweet</strong></span>
 				<h3>Perfect Avocado Toast For Breakfast</h3>
-			</td>
-			<td class="recipe">
-				<img class="imatgeinici" src="storage/imatgeinici.png" alt="image not found">
-				<p><strong>Healthy</strong></p>
+			</article>
+			<article class="recipe display">
+				<span><strong>Healthy</strong></span>
 				<h3>Summer Berry Parfaid</h3>
-			</td>
-		</tr>
-	</table>
+			</article>
+		</div>
+	</section>
 	<section class="autor minpadding display centrar">
 		<img class="perfilautor" src="storage/usuari.png">
 		<article>
@@ -112,11 +106,11 @@
 	</section>
 	<footer class="minpadding display centrar">
 		<section>
-			<img src="storage/logoipsum.png">
-			<article class="display">
-				<a href="#categ"><p class="pagina">Categories</p></a>
-				<a href="#lastrec"><p class="pagina">Lastest recipes</p></a>
-				<a href="#mstpopular"><p class="pagina">Most popular recipes</p></a>
+			<img class="absolute" src="storage/logoipsum.png">
+			<article class="display centretotal">
+				<a class="pagina" href="#categ">Categories</a>
+				<a class="pagina" href="#lastrec">Lastest recipes</a>
+				<a class="pagina" href="#mstpopular">Most popular recipes</a>
 			</article>
 		</section>
 		<article>
