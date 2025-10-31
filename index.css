@@ -184,13 +184,8 @@ a:hover {
 	right: 40px;
 }
 
-.div_recipe {
-	display: flex;
-}
-
 .recipe {
 	background-image: url(https://lipsum.app/560x420/f4eae5/cb997e);
-
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #f4eae5;
@@ -259,7 +254,6 @@ a:hover {
 	.inputemail {
 		width: 220px;
 	}
-
 }
 
 @media (max-width: 820px) {
@@ -340,7 +334,6 @@ a:hover {
 		margin-top: 5px;
 		align-items: end;
 	}
-
 }
 
 @media(max-width: 450px) {
